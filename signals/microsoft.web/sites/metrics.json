@@ -3,7 +3,7 @@
   "metricNamespace": "microsoft.web/sites",
   "metricName": "Http5xx",
   "aggregationType": "Maximum",
-  "unit": null,
+  "unit": "Count",
   "timeGrain": "PT5M",
   "dimensions": null,
   "staticThresholds": {

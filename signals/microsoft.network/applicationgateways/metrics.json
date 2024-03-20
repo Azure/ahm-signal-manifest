@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.network/applicationgateways",
     "metricName": "HealthyHostCount",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {

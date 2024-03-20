@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.eventhub/namespaces",
     "metricName": "ServerErrors",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1H",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.eventhub/namespaces",
     "metricName": "UserErrors",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

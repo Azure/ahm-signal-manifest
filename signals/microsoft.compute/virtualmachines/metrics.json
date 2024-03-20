@@ -3,7 +3,7 @@
   "metricNamespace": "microsoft.compute/virtualmachines",
   "metricName": "Percentage CPU",
   "aggregationType": "Average",
-  "unit": null,
+  "unit": "Percent",
   "timeGrain": "PT5M",
   "dimensions": null,
   "staticThresholds": {

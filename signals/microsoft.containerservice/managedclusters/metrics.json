@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.containerservice/managedclusters",
     "metricName": "node_cpu_usage_percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.containerservice/managedclusters",
     "metricName": "node_disk_usage_percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.containerservice/managedclusters",
     "metricName": "node_memory_working_set_percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {
@@ -55,7 +55,7 @@
     "metricNamespace": "microsoft.containerservice/managedclusters",
     "metricName": "node_memory_rss_percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {

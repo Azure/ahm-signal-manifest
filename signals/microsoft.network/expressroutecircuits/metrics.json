@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.network/expressroutecircuits",
     "metricName": "BgpAvailability",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.network/expressroutecircuits",
     "metricName": "ArpAvailability",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {

@@ -3,7 +3,7 @@
   "metricNamespace": "microsoft.network/natgateways",
   "metricName": "DatapathAvailability",
   "aggregationType": "Average",
-  "unit": null,
+  "unit": "Percent",
   "timeGrain": "PT1M",
   "dimensions": null,
   "staticThresholds": {

@@ -3,7 +3,7 @@
   "metricNamespace": "microsoft.network/publicipaddresses",
   "metricName": "VipAvailability",
   "aggregationType": "Maximum",
-  "unit": null,
+  "unit": "Percent",
   "timeGrain": "PT15M",
   "dimensions": null,
   "staticThresholds": {

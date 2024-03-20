@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.synapse/workspaces",
     "metricName": "BuiltinSqlPoolDataProcessedBytes",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Bytes",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.synapse/workspaces",
     "metricName": "CPUPercent",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -89,7 +89,7 @@
     "metricNamespace": "microsoft.synapse/workspaces",
     "metricName": "MemoryUsedPercent",
     "aggregationType": "Maximum",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -106,7 +106,7 @@
     "metricNamespace": "microsoft.synapse/workspaces",
     "metricName": "SQLStreamingRuntimeErrors",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {

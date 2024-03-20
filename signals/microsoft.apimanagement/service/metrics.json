@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.apimanagement/service",
     "metricName": "Capacity",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -55,7 +55,7 @@
     "metricNamespace": "microsoft.apimanagement/service",
     "metricName": "FailedRequests",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -72,7 +72,7 @@
     "metricNamespace": "microsoft.apimanagement/service",
     "metricName": "UnauthorizedRequests",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

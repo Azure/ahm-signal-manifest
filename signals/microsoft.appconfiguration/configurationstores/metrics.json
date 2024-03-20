@@ -3,7 +3,7 @@
   "metricNamespace": "microsoft.appconfiguration/configurationstores",
   "metricName": "ThrottledHttpRequestCount",
   "aggregationType": "Count",
-  "unit": null,
+  "unit": "Count",
   "timeGrain": "PT5M",
   "dimensions": null,
   "staticThresholds": {

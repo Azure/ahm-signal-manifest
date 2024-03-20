@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Free Space",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Processor Time",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Used Memory",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -55,7 +55,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Used Space",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -72,7 +72,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Committed Bytes In Use",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {
@@ -123,7 +123,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Available Memory",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -140,7 +140,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Used Inodes",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -157,7 +157,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% Used Swap Space",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {
@@ -174,7 +174,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% IO Wait Time",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -191,7 +191,7 @@
     "metricNamespace": "microsoft.operationalinsights/workspaces",
     "metricName": "Average_% User Time",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

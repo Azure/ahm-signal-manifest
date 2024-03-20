@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.servicebus/namespaces",
     "metricName": "NamespaceCpuUsage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.servicebus/namespaces",
     "metricName": "NamespaceMemoryUsage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.servicebus/namespaces",
     "metricName": "ServerErrors",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -55,7 +55,7 @@
     "metricNamespace": "microsoft.servicebus/namespaces",
     "metricName": "ThrottledRequests",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {

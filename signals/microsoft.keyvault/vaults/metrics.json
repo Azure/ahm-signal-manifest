@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.keyvault/vaults",
     "metricName": "Availability",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.keyvault/vaults",
     "metricName": "SaturationShoebox",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.keyvault/vaults",
     "metricName": "ServiceApiLatency",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "MilliSeconds",
     "timeGrain": "PT15M",
     "dimensions": null,
     "staticThresholds": {

@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.sql/servers/elasticpools",
     "metricName": "cpu_percent",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.sql/servers/elasticpools",
     "metricName": "storage_percent",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
