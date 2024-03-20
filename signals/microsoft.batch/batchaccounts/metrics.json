@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.batch/batchaccounts",
     "metricName": "UnusableNodeCount",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.batch/batchaccounts",
     "metricName": "OfflineNodeCount",
     "aggregationType": "Total",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.network/loadbalancers",
     "metricName": "VipAvailability",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.network/loadbalancers",
     "metricName": "DipAvailability",
     "aggregationType": "Maximum",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.network/loadbalancers",
     "metricName": "Global Backend Availability",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

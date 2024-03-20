@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.cache/redis",
     "metricName": "serverLoad",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.cache/redis",
     "metricName": "usedmemorypercentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.cache/redis",
     "metricName": "errors",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1H",
     "dimensions": null,
     "staticThresholds": {
@@ -55,7 +55,7 @@
     "metricNamespace": "microsoft.cache/redis",
     "metricName": "cacheLatency",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Count",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -72,7 +72,7 @@
     "metricNamespace": "microsoft.cache/redis",
     "metricName": "percentProcessorTime",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -89,7 +89,7 @@
     "metricNamespace": "microsoft.cache/redis",
     "metricName": "usedmemoryRss",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Bytes",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -106,7 +106,7 @@
     "metricNamespace": "microsoft.cache/redis",
     "metricName": "allusedmemorypercentage",
     "aggregationType": "Maximum",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

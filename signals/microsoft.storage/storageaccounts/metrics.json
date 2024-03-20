@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.storage/storageaccounts",
     "metricName": "Availability",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.storage/storageaccounts",
     "metricName": "SuccessE2ELatency",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "MilliSeconds",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.storage/storageaccounts",
     "metricName": "SuccessServerLatency",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "MilliSeconds",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {

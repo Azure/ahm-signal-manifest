@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.cdn/profiles",
     "metricName": "OriginHealthPercentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.cdn/profiles",
     "metricName": "Percentage5XX",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {

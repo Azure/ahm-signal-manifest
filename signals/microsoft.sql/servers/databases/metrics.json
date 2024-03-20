@@ -55,7 +55,7 @@
     "metricNamespace": "microsoft.sql/servers/databases",
     "metricName": "app_memory_percent",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -72,7 +72,7 @@
     "metricNamespace": "microsoft.sql/servers/databases",
     "metricName": "app_cpu_percent",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -89,7 +89,7 @@
     "metricNamespace": "microsoft.sql/servers/databases",
     "metricName": "memory_usage_percent",
     "aggregationType": "Maximum",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -106,7 +106,7 @@
     "metricNamespace": "microsoft.sql/servers/databases",
     "metricName": "cpu_used",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

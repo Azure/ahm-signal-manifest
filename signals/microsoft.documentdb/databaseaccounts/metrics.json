@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.documentdb/databaseaccounts",
     "metricName": "ServiceAvailability",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1H",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.documentdb/databaseaccounts",
     "metricName": "NormalizedRUConsumption",
     "aggregationType": "Maximum",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {

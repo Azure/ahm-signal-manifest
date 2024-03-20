@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.network/frontdoors",
     "metricName": "BackendHealthPercentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.network/frontdoors",
     "metricName": "BackendRequestLatency",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "MilliSeconds",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {

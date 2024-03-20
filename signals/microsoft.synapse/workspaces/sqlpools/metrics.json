@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.synapse/workspaces/sqlpools",
     "metricName": "MemoryUsedPercent",
     "aggregationType": "Maximum",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.synapse/workspaces/sqlpools",
     "metricName": "CPUPercent",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.synapse/workspaces/sqlpools",
     "metricName": "DWUUsedPercent",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {

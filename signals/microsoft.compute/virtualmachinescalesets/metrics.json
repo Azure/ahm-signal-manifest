@@ -4,7 +4,7 @@
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Percentage CPU",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "OS Disk IOPS Consumed Percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "OS Disk Bandwidth Consumed Percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -55,7 +55,7 @@
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Data Disk IOPS Consumed Percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -72,7 +72,7 @@
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Data Disk Used Burst IO Credits Percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -89,7 +89,7 @@
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Data Disk Used Burst BPS Credits Percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
@@ -106,7 +106,7 @@
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "VM Cached IOPS Consumed Percentage",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "Percent",
     "timeGrain": "PT30M",
     "dimensions": null,
     "staticThresholds": {
