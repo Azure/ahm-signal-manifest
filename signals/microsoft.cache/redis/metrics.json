@@ -1,0 +1,121 @@
+[
+  {
+    "id": "9df37170-ce84-4ef5-80bf-1863aca78afb",
+    "metricNamespace": "microsoft.cache/redis",
+    "metricName": "serverLoad",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 85.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "f9e4890c-9413-4ec2-9bb2-8842fd59afc2",
+    "metricNamespace": "microsoft.cache/redis",
+    "metricName": "usedmemorypercentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 85.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "3332a88b-f6fa-4d63-94d9-f0786c50c2d5",
+    "metricNamespace": "microsoft.cache/redis",
+    "metricName": "errors",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1H",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "cb16def0-49b5-4777-93ef-259b6a6d3302",
+    "metricNamespace": "microsoft.cache/redis",
+    "metricName": "cacheLatency",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 9000.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 10000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "02be419a-0627-4574-87f0-afa10c7d5d19",
+    "metricNamespace": "microsoft.cache/redis",
+    "metricName": "percentProcessorTime",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 85.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "be08dbbc-a10c-4c33-9f47-8af9794a40df",
+    "metricNamespace": "microsoft.cache/redis",
+    "metricName": "usedmemoryRss",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 11000000000.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 11000000000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "d7ab08d8-f71e-4d15-802e-313abf75180c",
+    "metricNamespace": "microsoft.cache/redis",
+    "metricName": "allusedmemorypercentage",
+    "aggregationType": "Maximum",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 85.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

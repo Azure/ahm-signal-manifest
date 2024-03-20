@@ -1,0 +1,70 @@
+[
+  {
+    "id": "4f5a4f48-9b25-4bdc-a297-4e134a23a900",
+    "metricNamespace": "microsoft.servicebus/namespaces",
+    "metricName": "NamespaceCpuUsage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 85.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "1df08c9a-f8cd-4e9c-a704-4bce04bd8f31",
+    "metricNamespace": "microsoft.servicebus/namespaces",
+    "metricName": "NamespaceMemoryUsage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "bc028949-6344-4a51-b56e-92155d562cf8",
+    "metricNamespace": "microsoft.servicebus/namespaces",
+    "metricName": "ServerErrors",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "387d2813-ec4c-4a83-8791-05e19faaaea3",
+    "metricNamespace": "microsoft.servicebus/namespaces",
+    "metricName": "ThrottledRequests",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

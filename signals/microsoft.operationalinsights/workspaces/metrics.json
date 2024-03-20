@@ -1,0 +1,206 @@
+[
+  {
+    "id": "796bb813-7e49-45e3-b377-59a7cac59d93",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Free Space",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 20.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 10.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "416cd5fd-76e8-45e3-98bd-f6f3e8631648",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Processor Time",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 90.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "4a8cd04d-e07d-42d7-aae2-cd8091e7a06d",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Used Memory",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 90.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "ed6f3243-132e-4bc4-8909-24fa2fc15197",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Used Space",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "e4ddd85a-2731-476b-a786-10c79dc66907",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Committed Bytes In Use",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "6f17add9-9394-4e9b-b575-16e105a30075",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Heartbeat",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "LowerOrEquals",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "LowerOrEquals"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "aefeb465-be5e-49f8-9975-4c3191575d91",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_Available MBytes",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 768.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 512.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "edfb91fa-420a-470d-ba3e-9894e4464199",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Available Memory",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 15.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 10.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "08c59a47-a85d-4a79-a221-5397988399c5",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Used Inodes",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "007fdafb-7e7a-4485-8340-877a7ff55335",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% Used Swap Space",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 50.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 75.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "c053958e-ac36-493e-a2b2-cb6442863ad3",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% IO Wait Time",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterOrEquals",
+      "unhealthyThreshold": 85.0,
+      "unhealthyOperator": "GreaterOrEquals"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "3eb63b2d-d6e4-4bff-a86e-d1bb8a796c91",
+    "metricNamespace": "microsoft.operationalinsights/workspaces",
+    "metricName": "Average_% User Time",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterOrEquals",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterOrEquals"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

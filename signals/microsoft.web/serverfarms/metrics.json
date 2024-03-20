@@ -1,0 +1,36 @@
+[
+  {
+    "id": "27a51e03-c177-4454-8adc-82db0c9d72f2",
+    "metricNamespace": "microsoft.web/serverfarms",
+    "metricName": "CpuPercentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "51e3a8cb-2482-4131-a4e7-32e1fe2da718",
+    "metricNamespace": "microsoft.web/serverfarms",
+    "metricName": "MemoryPercentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

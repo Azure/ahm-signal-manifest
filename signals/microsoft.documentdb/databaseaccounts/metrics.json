@@ -1,0 +1,36 @@
+[
+  {
+    "id": "caff7479-d638-4f81-a41f-5c4a12039c30",
+    "metricNamespace": "microsoft.documentdb/databaseaccounts",
+    "metricName": "ServiceAvailability",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1H",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "dae1b424-63c5-4974-ae2e-97bea467a630",
+    "metricNamespace": "microsoft.documentdb/databaseaccounts",
+    "metricName": "NormalizedRUConsumption",
+    "aggregationType": "Maximum",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

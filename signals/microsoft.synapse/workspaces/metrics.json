@@ -1,0 +1,121 @@
+[
+  {
+    "id": "c993a336-835b-4459-9953-df53e11c5f9d",
+    "metricNamespace": "microsoft.synapse/workspaces",
+    "metricName": "IntegrationPipelineRunsEnded",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "42ed0f40-31c1-4b8a-a3cd-426589055509",
+    "metricNamespace": "microsoft.synapse/workspaces",
+    "metricName": "BuiltinSqlPoolDataProcessedBytes",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 386547056640.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 386547056640.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "18b51b29-8d21-4e50-bfc9-2314637005a7",
+    "metricNamespace": "microsoft.synapse/workspaces",
+    "metricName": "CPUPercent",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "c7190359-e132-4bf1-be14-5eb963994310",
+    "metricNamespace": "microsoft.synapse/workspaces",
+    "metricName": "IntegrationTriggerRunsEnded",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "f742c2c2-5b99-4bef-b94c-7613adcf1757",
+    "metricNamespace": "microsoft.synapse/workspaces",
+    "metricName": "BuiltinSqlPoolLoginAttempts",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 360.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 360.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "391f6bac-158f-4ed4-9df9-2f12514b27c0",
+    "metricNamespace": "microsoft.synapse/workspaces",
+    "metricName": "MemoryUsedPercent",
+    "aggregationType": "Maximum",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "d44f6c7b-416f-400d-a245-c46ef212748c",
+    "metricNamespace": "microsoft.synapse/workspaces",
+    "metricName": "SQLStreamingRuntimeErrors",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

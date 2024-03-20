@@ -1,0 +1,36 @@
+[
+  {
+    "id": "4d0e11d9-7a9d-41c0-b400-389ab7cbc008",
+    "metricNamespace": "microsoft.cdn/profiles",
+    "metricName": "OriginHealthPercentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 95.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "b2a6c72a-a9a6-414b-98e9-9681fc10e000",
+    "metricNamespace": "microsoft.cdn/profiles",
+    "metricName": "Percentage5XX",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 5.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 10.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

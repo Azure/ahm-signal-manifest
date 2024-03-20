@@ -1,0 +1,53 @@
+[
+  {
+    "id": "8e4ae171-9913-4f88-97bb-584f3b347ee6",
+    "metricNamespace": "microsoft.batch/batchaccounts",
+    "metricName": "UnusableNodeCount",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 1.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 2.5,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "df4fceda-14a6-441d-9021-9bd6b3595ccb",
+    "metricNamespace": "microsoft.batch/batchaccounts",
+    "metricName": "OfflineNodeCount",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "71e41a80-7359-473e-a278-57d8b8fe0a28",
+    "metricNamespace": "microsoft.batch/batchaccounts",
+    "metricName": "TaskFailEvent",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

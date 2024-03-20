@@ -1,0 +1,17 @@
+{
+  "id": "4dce762e-617b-4a4a-ba83-8e3f0c55af06",
+  "metricNamespace": "microsoft.appconfiguration/configurationstores",
+  "metricName": "ThrottledHttpRequestCount",
+  "aggregationType": "Count",
+  "unit": null,
+  "timeGrain": "PT5M",
+  "dimensions": null,
+  "staticThresholds": {
+    "degradedThreshold": 10.0,
+    "degradedOperator": "GreaterThan",
+    "unhealthyThreshold": 10.0,
+    "unhealthyOperator": "GreaterThan"
+  },
+  "dynamicThresholds": null,
+  "recommended": true
+}

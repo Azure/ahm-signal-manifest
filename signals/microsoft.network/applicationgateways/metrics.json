@@ -1,0 +1,36 @@
+[
+  {
+    "id": "78ec1122-c6b7-4bf1-9c6b-152631d90003",
+    "metricNamespace": "microsoft.network/applicationgateways",
+    "metricName": "HealthyHostCount",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 1.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 1.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "6ee7aa18-0c08-4ef3-9104-8ebc9ac0e23a",
+    "metricNamespace": "microsoft.network/applicationgateways",
+    "metricName": "IfUnderDDoSAttack",
+    "aggregationType": "Maximum",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

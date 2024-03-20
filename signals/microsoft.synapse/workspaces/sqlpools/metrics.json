@@ -1,0 +1,53 @@
+[
+  {
+    "id": "50733be3-b0c5-449a-a8a5-30be325d70c6",
+    "metricNamespace": "microsoft.synapse/workspaces/sqlpools",
+    "metricName": "MemoryUsedPercent",
+    "aggregationType": "Maximum",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "aac107b2-3b05-4893-8c31-ea7e263c23a3",
+    "metricNamespace": "microsoft.synapse/workspaces/sqlpools",
+    "metricName": "CPUPercent",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "fcd85940-a359-4514-acf4-2aa22411f4b4",
+    "metricNamespace": "microsoft.synapse/workspaces/sqlpools",
+    "metricName": "DWUUsedPercent",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

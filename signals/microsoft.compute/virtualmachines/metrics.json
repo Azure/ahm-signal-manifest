@@ -1,0 +1,17 @@
+{
+  "id": "aa2a796a-d4b3-4fbc-952c-23798e0d8e3c",
+  "metricNamespace": "microsoft.compute/virtualmachines",
+  "metricName": "Percentage CPU",
+  "aggregationType": "Average",
+  "unit": null,
+  "timeGrain": "PT5M",
+  "dimensions": null,
+  "staticThresholds": {
+    "degradedThreshold": 85.0,
+    "degradedOperator": "GreaterThan",
+    "unhealthyThreshold": 90.0,
+    "unhealthyOperator": "GreaterThan"
+  },
+  "dynamicThresholds": null,
+  "recommended": true
+}

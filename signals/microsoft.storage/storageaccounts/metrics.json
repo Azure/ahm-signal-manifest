@@ -1,0 +1,87 @@
+[
+  {
+    "id": "b2040e11-7b13-49c5-8693-dc6e86bc60b6",
+    "metricNamespace": "microsoft.storage/storageaccounts",
+    "metricName": "Availability",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "8f7f5e6b-6c15-4d14-b886-dd2e3b302f16",
+    "metricNamespace": "microsoft.storage/storageaccounts",
+    "metricName": "SuccessE2ELatency",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 10.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 15.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "61d053e0-63c6-44da-b109-dd511efe4407",
+    "metricNamespace": "microsoft.storage/storageaccounts",
+    "metricName": "SuccessServerLatency",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 10.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 15.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "98fbbe9f-c4f9-49fe-b5eb-257206f67132",
+    "metricNamespace": "microsoft.storage/storageaccounts",
+    "metricName": "QueueCount",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1H",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "87773c89-5378-42a2-adb7-77d1caf526bd",
+    "metricNamespace": "microsoft.storage/storageaccounts",
+    "metricName": "QueueCapacity",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1H",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

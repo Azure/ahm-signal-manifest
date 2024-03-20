@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1617182d-f699-4f4d-94dc-03a98e35ef6a",
+    "metricNamespace": "microsoft.keyvault/vaults",
+    "metricName": "Availability",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 99.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "816db2ba-f6ef-4a35-ab27-53c4fe69cc2e",
+    "metricNamespace": "microsoft.keyvault/vaults",
+    "metricName": "SaturationShoebox",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 25.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 50.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "ec0b2cc9-c776-4e8b-a437-e7a18d15f41b",
+    "metricNamespace": "microsoft.keyvault/vaults",
+    "metricName": "ServiceApiLatency",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 50.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 100.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

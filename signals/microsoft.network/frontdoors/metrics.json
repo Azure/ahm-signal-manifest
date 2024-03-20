@@ -1,0 +1,36 @@
+[
+  {
+    "id": "362f7010-3e94-431e-a64f-a28ad68d1ff4",
+    "metricNamespace": "microsoft.network/frontdoors",
+    "metricName": "BackendHealthPercentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 90.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 80.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "504300aa-add2-4ac0-a5be-5152fee1b1c9",
+    "metricNamespace": "microsoft.network/frontdoors",
+    "metricName": "BackendRequestLatency",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 4500.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 5000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

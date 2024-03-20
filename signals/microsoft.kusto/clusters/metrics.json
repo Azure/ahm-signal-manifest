@@ -1,0 +1,138 @@
+[
+  {
+    "id": "b1bb6878-f500-4027-af4e-0097c94f4a44",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "CacheUtilization",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1H",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "6f4dc09c-7c2c-4fa0-913f-a707da08f16d",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "BlobsDropped",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "GreaterOrEquals",
+      "unhealthyThreshold": 100.0,
+      "unhealthyOperator": "GreaterOrEquals"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "2abea315-a580-4b32-b421-313dd73743e3",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "DiscoveryLatency",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 10.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 20.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "443eb840-1f68-411f-b55a-360052058e1b",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "QueueLength",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 10.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 20.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "5707e3d4-250f-48fb-ae20-9ef343e615ad",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "IngestionLatencyInSeconds",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 10.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 20.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "5f956a30-7c1e-4b8d-b16f-1e73427c9fd7",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "KeepAlive",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.5,
+      "degradedOperator": "LowerOrEquals",
+      "unhealthyThreshold": 0.5,
+      "unhealthyOperator": "LowerOrEquals"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "0af5e3ac-f152-4739-8a87-27bec1585c3a",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "IngestionResult",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 300.0,
+      "degradedOperator": "GreaterOrEquals",
+      "unhealthyThreshold": 300.0,
+      "unhealthyOperator": "GreaterOrEquals"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "76f47aef-a51c-49c0-ba7a-34f621ff45b8",
+    "metricNamespace": "microsoft.kusto/clusters",
+    "metricName": "CPU",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

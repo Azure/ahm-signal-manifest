@@ -1,0 +1,87 @@
+[
+  {
+    "id": "e75c9b21-5e8f-48a2-b375-d78de4a68fdd",
+    "metricNamespace": "microsoft.apimanagement/service",
+    "metricName": "Capacity",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "e2667d68-6005-48f4-b07d-9c22ab58dce5",
+    "metricNamespace": "microsoft.apimanagement/service",
+    "metricName": "BackendDuration",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 12500.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 15000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "0228c4dc-883b-4942-8649-20be05ac6428",
+    "metricNamespace": "microsoft.apimanagement/service",
+    "metricName": "Duration",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 2500.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 3000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "75940be7-4a96-490e-9f6f-ff33252f37b1",
+    "metricNamespace": "microsoft.apimanagement/service",
+    "metricName": "FailedRequests",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "8d0ac2be-2ca0-4c65-98c2-d96d61c0d1ac",
+    "metricNamespace": "microsoft.apimanagement/service",
+    "metricName": "UnauthorizedRequests",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "88f88b4a-c415-42af-9b8c-1aa07ddeb533",
+    "metricNamespace": "microsoft.network/loadbalancers",
+    "metricName": "VipAvailability",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "117aa8a0-32b5-4ab3-b87b-63e90b99ea85",
+    "metricNamespace": "microsoft.network/loadbalancers",
+    "metricName": "DipAvailability",
+    "aggregationType": "Maximum",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "e350b6d1-ba07-4fc4-97f9-fd55ce352077",
+    "metricNamespace": "microsoft.network/loadbalancers",
+    "metricName": "Global Backend Availability",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 90.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "8f5859b0-6c10-4d20-9aa0-8965023c01a6",
+    "metricNamespace": "microsoft.network/loadbalancers",
+    "metricName": "UsedSnatPorts",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 900.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 1000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

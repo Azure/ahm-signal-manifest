@@ -1,0 +1,36 @@
+[
+  {
+    "id": "387a0fe0-e491-4bea-bb76-1166f00de611",
+    "metricNamespace": "microsoft.eventhub/namespaces",
+    "metricName": "ServerErrors",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1H",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 1.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 10.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "1ba3452b-693d-4e22-bd57-bf07835226a0",
+    "metricNamespace": "microsoft.eventhub/namespaces",
+    "metricName": "UserErrors",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

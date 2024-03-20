@@ -1,0 +1,121 @@
+[
+  {
+    "id": "4ae0ada5-9615-42ae-b891-dc8a37e3cb23",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "Percentage CPU",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "57baca66-55ff-4357-94dd-2076db0ca5c6",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "OS Disk IOPS Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "03919b00-41b7-45f7-8807-a2406fe3940f",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "OS Disk Bandwidth Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "0217e621-cc2b-405e-93ca-9b59f0103d7a",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "Data Disk IOPS Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "8ee65d84-8396-49bc-989f-cccb16b34051",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "Data Disk Used Burst IO Credits Percentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "97065b4e-da36-4d0b-984b-31b027952d14",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "Data Disk Used Burst BPS Credits Percentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "462d9382-00e1-4d53-98fe-7a8468864d8b",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "VM Cached IOPS Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT30M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 85.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

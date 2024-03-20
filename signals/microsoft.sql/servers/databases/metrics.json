@@ -1,0 +1,121 @@
+[
+  {
+    "id": "3cdf1829-502f-4742-a6e0-6c12a882d56a",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "connection_failed",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "0fc7c5f1-81ed-4034-ab71-91f749f3671c",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "deadlock",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "26e688e9-b36d-421d-a2e6-07814f3d8c9a",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "blocked_by_firewall",
+    "aggregationType": "Total",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 5.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 5.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "d3b47f33-5fd7-4f8a-8f98-7ef22df13dcb",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "app_memory_percent",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "b311b04b-c1b0-450e-9c07-a9767ea391d4",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "app_cpu_percent",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "0b0ac823-50eb-4645-89d4-cf0fa6ceaadc",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "memory_usage_percent",
+    "aggregationType": "Maximum",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "3ad5b7f3-73a0-4a5a-a508-60bc422d5ae3",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "cpu_used",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

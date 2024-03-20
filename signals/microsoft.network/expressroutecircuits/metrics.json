@@ -1,0 +1,36 @@
+[
+  {
+    "id": "7470b76d-cb5d-4591-9683-43853160d6a9",
+    "metricNamespace": "microsoft.network/expressroutecircuits",
+    "metricName": "BgpAvailability",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "ef166add-30e1-4153-9d5e-ed477c3d7a22",
+    "metricNamespace": "microsoft.network/expressroutecircuits",
+    "metricName": "ArpAvailability",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]
