@@ -1,17 +1,19 @@
-{
-  "id": "b16bb302-2fd6-4fc5-9ec6-450348cbe3c8",
-  "metricNamespace": "microsoft.network/publicipaddresses",
-  "metricName": "VipAvailability",
-  "aggregationType": "Maximum",
-  "unit": "Percent",
-  "timeGrain": "PT15M",
-  "dimensions": null,
-  "staticThresholds": {
-    "degradedThreshold": 100.0,
-    "degradedOperator": "LowerThan",
-    "unhealthyThreshold": 95.0,
-    "unhealthyOperator": "LowerThan"
-  },
-  "dynamicThresholds": null,
-  "recommended": true
-}
+[
+  {
+    "id": "b16bb302-2fd6-4fc5-9ec6-450348cbe3c8",
+    "metricNamespace": "microsoft.network/publicipaddresses",
+    "metricName": "VipAvailability",
+    "aggregationType": "Maximum",
+    "unit": "Percent",
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

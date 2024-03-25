@@ -1,17 +1,19 @@
-{
-  "id": "dcf56c0d-c950-4106-876b-8ff904062c71",
-  "metricNamespace": "microsoft.sql/managedinstances",
-  "metricName": "avg_cpu_percent",
-  "aggregationType": "Average",
-  "unit": "Percent",
-  "timeGrain": "PT15M",
-  "dimensions": null,
-  "staticThresholds": {
-    "degradedThreshold": 75.0,
-    "degradedOperator": "GreaterThan",
-    "unhealthyThreshold": 85.0,
-    "unhealthyOperator": "GreaterThan"
-  },
-  "dynamicThresholds": null,
-  "recommended": true
-}
+[
+  {
+    "id": "dcf56c0d-c950-4106-876b-8ff904062c71",
+    "metricNamespace": "microsoft.sql/managedinstances",
+    "metricName": "avg_cpu_percent",
+    "aggregationType": "Average",
+    "unit": "Percent",
+    "timeGrain": "PT15M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 75.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 85.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]

@@ -1,17 +1,19 @@
-{
-  "id": "b420ddaf-9dab-4cb2-b42c-4d11b6bcad30",
-  "metricNamespace": "microsoft.network/natgateways",
-  "metricName": "DatapathAvailability",
-  "aggregationType": "Average",
-  "unit": "Percent",
-  "timeGrain": "PT1M",
-  "dimensions": null,
-  "staticThresholds": {
-    "degradedThreshold": 100.0,
-    "degradedOperator": "LowerThan",
-    "unhealthyThreshold": 99.0,
-    "unhealthyOperator": "LowerThan"
-  },
-  "dynamicThresholds": null,
-  "recommended": true
-}
+[
+  {
+    "id": "b420ddaf-9dab-4cb2-b42c-4d11b6bcad30",
+    "metricNamespace": "microsoft.network/natgateways",
+    "metricName": "DatapathAvailability",
+    "aggregationType": "Average",
+    "unit": "Percent",
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 99.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]
