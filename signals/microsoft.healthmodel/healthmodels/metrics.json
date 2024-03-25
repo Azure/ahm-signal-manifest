@@ -1,17 +1,19 @@
-{
-  "id": "36340085-b4e5-44e8-b8f7-e1dc969bc686",
-  "metricNamespace": "microsoft.healthmodel/healthmodels",
-  "metricName": "OverallHealthScore",
-  "aggregationType": "Average",
-  "unit": null,
-  "timeGrain": "PT1M",
-  "dimensions": null,
-  "staticThresholds": {
-    "degradedThreshold": 100.0,
-    "degradedOperator": "LowerThan",
-    "unhealthyThreshold": 50.0,
-    "unhealthyOperator": "LowerThan"
-  },
-  "dynamicThresholds": null,
-  "recommended": true
-}
+[
+  {
+    "id": "36340085-b4e5-44e8-b8f7-e1dc969bc686",
+    "metricNamespace": "microsoft.healthmodel/healthmodels",
+    "metricName": "OverallHealthScore",
+    "aggregationType": "Average",
+    "unit": null,
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 100.0,
+      "degradedOperator": "LowerThan",
+      "unhealthyThreshold": 50.0,
+      "unhealthyOperator": "LowerThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]
