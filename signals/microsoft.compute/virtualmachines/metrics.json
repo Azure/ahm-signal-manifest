@@ -26,9 +26,9 @@
     "dimensions": null,
     "staticThresholds": null,
     "dynamicThresholds": {
-      "sensitivity": 1,
+      "sensitivity": 0,
       "model": "AnomalyDetection",
-      "operator": "GreaterOrLowerThan"
+      "operator": "GreaterThan"
     },
     "recommended": false
   },
@@ -42,9 +42,9 @@
     "dimensions": null,
     "staticThresholds": null,
     "dynamicThresholds": {
-      "sensitivity": 1,
+      "sensitivity": 0,
       "model": "AnomalyDetection",
-      "operator": "GreaterOrLowerThan"
+      "operator": "GreaterThan"
     },
     "recommended": false
   },
@@ -58,9 +58,9 @@
     "dimensions": null,
     "staticThresholds": null,
     "dynamicThresholds": {
-      "sensitivity": 1,
+      "sensitivity": 0,
       "model": "AnomalyDetection",
-      "operator": "GreaterOrLowerThan"
+      "operator": "GreaterThan"
     },
     "recommended": false
   }
