@@ -15,5 +15,21 @@
     },
     "dynamicThresholds": null,
     "recommended": true
+  },
+  {
+    "id": "52bdf074-69b3-41d2-a9de-f4359562ed7d",
+    "metricNamespace": "microsoft.compute/virtualmachines",
+    "metricName": "Data Disk Queue Depth",
+    "aggregationType": "Average",
+    "unit": "Count",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": null,
+    "dynamicThresholds": {
+      "sensitivity": 1,
+      "model": "AnomalyDetection",
+      "operator": "GreaterOrLowerThan"
+    },
+    "recommended": false
   }
 ]
