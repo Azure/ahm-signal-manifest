@@ -1,0 +1,50 @@
+name: 'Validate schema and casing'
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'metrics.json'
+  pull_request:
+
+jobs:
+  test:
+    name: 'Validate metrics.json schema'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 'Ensure that all directories are lowercase'
+        id: lowercase
+        shell: pwsh
+        run: |
+          $directories = Get-ChildItem -Recurse -Path ./signals -Directory
+          foreach ($dir in $directories) {
+            if ($dir.Name -cne $dir.Name.ToLower()) {
+              Write-Error "Directory $dir must be lowercase!"
+            }
+          }
+
+      - name: 'Ensure that the id is unique across all files'
+        id: uniqueId
+        shell: pwsh
+        run: |
+          ./.github/scripts/generateFullFile.ps1 -path ./signals -outputPath ./allMetrics.json
+          $allMetrics = Get-Content -Path ./allMetrics.json | ConvertFrom-Json
+
+          $allMetrics | Group-Object -Property id | Where-Object { $_.Count -gt 1 } | ForEach-Object {
+            Write-Host "::error file=allMetrics.json::Id $($_.Name) is not unique!"
+          }
+
+
+
+      - name: 'Validate JSON Schema for metrics.json'
+        id: validation
+        shell: pwsh
+        run: |
+          $files = Get-ChildItem -Recurse | Where-Object { $_.Name -eq 'metrics.json' }
+
+          $files |% {
+            Write-Host "Found $($_.Fullname). Validate JSON Schema."
+            ./.github/scripts/validateMetrics.ps1 -metricsFile $($_.FullName)
+          }

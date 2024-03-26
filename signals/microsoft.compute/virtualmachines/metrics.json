@@ -31,5 +31,37 @@
       "operator": "GreaterOrLowerThan"
     },
     "recommended": false
+  },
+  {
+    "id": "3f00e760-4492-4592-ac21-6469a48a36fa",
+    "metricNamespace": "microsoft.compute/virtualmachines",
+    "metricName": "OS Disk Queue Depth",
+    "aggregationType": "Average",
+    "unit": "Count",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": null,
+    "dynamicThresholds": {
+      "sensitivity": 1,
+      "model": "AnomalyDetection",
+      "operator": "GreaterOrLowerThan"
+    },
+    "recommended": false
+  },
+  {
+    "id": "8a9bd97e-46c2-4b3d-afce-778ae0f2cdaf",
+    "metricNamespace": "microsoft.compute/virtualmachines",
+    "metricName": "Temp Disk Queue Depth",
+    "aggregationType": "Average",
+    "unit": "Count",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": null,
+    "dynamicThresholds": {
+      "sensitivity": 1,
+      "model": "AnomalyDetection",
+      "operator": "GreaterOrLowerThan"
+    },
+    "recommended": false
   }
 ]
