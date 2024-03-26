@@ -10,7 +10,7 @@
         "staticThresholds": {
           "degradedThreshold": null,
           "degradedOperator": null,
-          "unhealthyThreshold": 1,
+          "unhealthyThreshold": 0,
           "unhealthyOperator": "GreaterThan"
         },
         "dynamicThresholds": null,
