@@ -1,0 +1,19 @@
+[
+    {
+        "id": "ba9e616e-8d85-477f-b8f8-7b70a64b12e0",
+        "metricNamespace": "microsoft.insights/components",
+        "metricName": "exceptions/count",
+        "aggregationType": "Count",
+        "unit": "Count",
+        "timeGrain": "PT1M",
+        "dimensions": null,
+        "staticThresholds": {
+          "degradedThreshold": null,
+          "degradedOperator": null,
+          "unhealthyThreshold": 1,
+          "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": false
+    }
+]
