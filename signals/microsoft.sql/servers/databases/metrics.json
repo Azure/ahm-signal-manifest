@@ -70,8 +70,25 @@
   {
     "id": "b311b04b-c1b0-450e-9c07-a9767ea391d4",
     "metricNamespace": "microsoft.sql/servers/databases",
-    "metricName": "app_cpu_percent",
+    "metricName": "sql_instance_cpu_percent",
     "aggregationType": "Average",
+    "unit": "Percent",
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 80.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 90.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  },
+  {
+    "id": "4de263e4-fa1a-40dd-9e52-f22b498094ef",
+    "metricNamespace": "microsoft.sql/servers/databases",
+    "metricName": "storage_percent",
+    "aggregationType": "Maximum",
     "unit": "Percent",
     "timeGrain": "PT1M",
     "dimensions": null,
@@ -87,7 +104,7 @@
   {
     "id": "0b0ac823-50eb-4645-89d4-cf0fa6ceaadc",
     "metricNamespace": "microsoft.sql/servers/databases",
-    "metricName": "memory_usage_percent",
+    "metricName": "sql_instance_memory_percent",
     "aggregationType": "Maximum",
     "unit": "Percent",
     "timeGrain": "PT1M",
@@ -104,7 +121,7 @@
   {
     "id": "3ad5b7f3-73a0-4a5a-a508-60bc422d5ae3",
     "metricNamespace": "microsoft.sql/servers/databases",
-    "metricName": "cpu_used",
+    "metricName": "cpu_percent",
     "aggregationType": "Average",
     "unit": "Percent",
     "timeGrain": "PT1M",
