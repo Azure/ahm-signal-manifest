@@ -24,13 +24,12 @@
     "unit": null,
     "timeGrain": "PT1M",
     "dimensions": null,
-    "staticThresholds": {
-      "degradedThreshold": 0.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 0.0,
-      "unhealthyOperator": "GreaterThan"
+    "staticThresholds": null,
+    "dynamicThresholds": {
+      "sensitivity": 0,
+      "model": "AnomalyDetection",
+      "operator": "GreaterThan"
     },
-    "dynamicThresholds": null,
     "recommended": true
   },
   {
@@ -41,13 +40,12 @@
     "unit": null,
     "timeGrain": "PT5M",
     "dimensions": null,
-    "staticThresholds": {
-      "degradedThreshold": 5.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 5.0,
-      "unhealthyOperator": "GreaterThan"
+    "staticThresholds": null,
+    "dynamicThresholds": {
+      "sensitivity": 0,
+      "model": "AnomalyDetection",
+      "operator": "GreaterThan"
     },
-    "dynamicThresholds": null,
     "recommended": true
   },
   {
