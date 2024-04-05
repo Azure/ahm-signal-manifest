@@ -14,7 +14,7 @@
       "unhealthyOperator": "GreaterThan"
     },
     "dynamicThresholds": null,
-    "recommended": true
+    "recommended": false
   },
   {
     "id": "1df08c9a-f8cd-4e9c-a704-4bce04bd8f31",
@@ -31,7 +31,7 @@
       "unhealthyOperator": "GreaterThan"
     },
     "dynamicThresholds": null,
-    "recommended": true
+    "recommended": false
   },
   {
     "id": "bc028949-6344-4a51-b56e-92155d562cf8",
