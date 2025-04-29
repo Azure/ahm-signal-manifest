@@ -16,54 +16,6 @@
         "source": "alertRuleRecommendations"
     },
     {
-        "id": "d3dc1a61-bc68-49ad-baba-37014d6b8bdf",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Memory\\Available Bytes",
-        "aggregationType": "Average",
-        "unit": "Bytes",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 1000000000.0,
-            "unhealthyOperator": "LessThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
-        "id": "ec857a1e-795a-44e6-b2ee-ad156077550c",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Cluster CSVFS\\Avg. sec/Read",
-        "aggregationType": "Maximum",
-        "unit": "Seconds",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 0.5,
-            "unhealthyOperator": "GreaterThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
-        "id": "9780113b-bb5c-4449-b1f9-9d5cc382ab23",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Cluster CSVFS\\Avg. sec/Write",
-        "aggregationType": "Maximum",
-        "unit": "Seconds",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 0.5,
-            "unhealthyOperator": "GreaterThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
         "id": "0b8c371f-1871-4f0a-97ac-d12053ce1292",
         "metricNamespace": "microsoft.azurestackhci/clusters",
         "metricName": "Network Adapter\\Bytes Received/sec",
@@ -144,22 +96,6 @@
         "source": "alertRuleRecommendations"
     },
     {
-        "id": "31b287dc-24c0-414e-88a3-0d95937e67d7",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Cluster CSVFS\\Avg. sec/Write",
-        "aggregationType": "Maximum",
-        "unit": "Seconds",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 0.5,
-            "unhealthyOperator": "GreaterThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
         "id": "b6233367-b4aa-4ca8-95aa-ca073afbd4c9",
         "metricNamespace": "microsoft.azurestackhci/clusters",
         "metricName": "Network Adapter\\Bytes Received/sec",
@@ -201,38 +137,6 @@
         "dimensions": null,
         "staticThresholds": {
             "unhealthyThreshold": 80.0,
-            "unhealthyOperator": "GreaterThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
-        "id": "23db7243-d222-429b-9534-5fbcb58b33b3",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Memory\\Available Bytes",
-        "aggregationType": "Average",
-        "unit": "Bytes",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 1000000000.0,
-            "unhealthyOperator": "LessThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
-        "id": "1191a515-0fe5-4815-aaa3-54156e5813b6",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Cluster CSVFS\\Avg. sec/Read",
-        "aggregationType": "Maximum",
-        "unit": "Seconds",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 0.5,
             "unhealthyOperator": "GreaterThan"
         },
         "dynamicThresholds": null,
@@ -297,54 +201,6 @@
         "dimensions": null,
         "staticThresholds": {
             "unhealthyThreshold": 80.0,
-            "unhealthyOperator": "GreaterThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
-        "id": "2a4bd310-3cb7-4a09-a313-41959f58ffa9",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Memory\\Available Bytes",
-        "aggregationType": "Average",
-        "unit": "Bytes",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 1000000000.0,
-            "unhealthyOperator": "LessThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
-        "id": "7b419ef6-186e-40f0-92ba-28a177512674",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Cluster CSVFS\\Avg. sec/Read",
-        "aggregationType": "Maximum",
-        "unit": "Seconds",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 0.5,
-            "unhealthyOperator": "GreaterThan"
-        },
-        "dynamicThresholds": null,
-        "recommended": true,
-        "source": "alertRuleRecommendations"
-    },
-    {
-        "id": "2a428a27-3376-4d13-aef7-8c80c1393115",
-        "metricNamespace": "microsoft.azurestackhci/clusters",
-        "metricName": "Cluster CSVFS\\Avg. sec/Write",
-        "aggregationType": "Maximum",
-        "unit": "Seconds",
-        "timeGrain": "PT5M",
-        "dimensions": null,
-        "staticThresholds": {
-            "unhealthyThreshold": 0.5,
             "unhealthyOperator": "GreaterThan"
         },
         "dynamicThresholds": null,
