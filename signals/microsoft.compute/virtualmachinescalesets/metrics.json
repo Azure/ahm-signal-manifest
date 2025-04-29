@@ -17,23 +17,6 @@
     "recommended": true
   },
   {
-    "id": "57baca66-55ff-4357-94dd-2076db0ca5c6",
-    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
-    "metricName": "OS Disk IOPS Consumed Percentage",
-    "aggregationType": "Average",
-    "unit": "Percent",
-    "timeGrain": "PT30M",
-    "dimensions": null,
-    "staticThresholds": {
-      "degradedThreshold": 85.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 95.0,
-      "unhealthyOperator": "GreaterThan"
-    },
-    "dynamicThresholds": null,
-    "recommended": true
-  },
-  {
     "id": "ea20a6a9-9e56-4289-8c42-7472fd0b6691",
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Available Memory Bytes",
@@ -68,7 +51,7 @@
   {
     "id": "07a3ee7b-8c33-46fe-b1de-e6d8d7ccddff",
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
-    "metricName": "VmAvailabilityMetric",
+    "metricName": "OS Disk IOPS Consumed Percentage",
     "aggregationType": "Average",
     "unit": "Count",
     "timeGrain": "PT5M",
