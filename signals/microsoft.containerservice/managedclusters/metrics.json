@@ -1,20 +1,19 @@
 [
   {
-    "id": "be758013-c809-4585-812c-c5a1ca7be619",
+    "id": "0586052b-2c8b-4c80-947e-69bc502ab7ea",
     "metricNamespace": "microsoft.containerservice/managedclusters",
     "metricName": "node_cpu_usage_percentage",
     "aggregationType": "Average",
     "unit": "Percent",
-    "timeGrain": "PT15M",
+    "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
-      "degradedThreshold": 75.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 85.0,
+      "unhealthyThreshold": 95.0,
       "unhealthyOperator": "GreaterThan"
     },
     "dynamicThresholds": null,
-    "recommended": true
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
   },
   {
     "id": "0b803d92-03ba-45b6-bcc6-ebcef7c6397b",
@@ -34,21 +33,20 @@
     "recommended": true
   },
   {
-    "id": "a9a9a7ec-798c-4d33-9df3-e7753cbb1bd4",
+    "id": "b2f3b299-e679-4b46-ae41-479fe90a4061",
     "metricNamespace": "microsoft.containerservice/managedclusters",
     "metricName": "node_memory_working_set_percentage",
     "aggregationType": "Average",
     "unit": "Percent",
-    "timeGrain": "PT15M",
+    "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
-      "degradedThreshold": 75.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 90.0,
+      "unhealthyThreshold": 100.0,
       "unhealthyOperator": "GreaterThan"
     },
     "dynamicThresholds": null,
-    "recommended": true
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
   },
   {
     "id": "c358dff8-d2b2-4194-a68b-828fbdbc04f3",

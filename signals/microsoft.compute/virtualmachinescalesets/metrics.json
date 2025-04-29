@@ -49,22 +49,6 @@
     "source": "AlertRuleRecommendations"
   },
   {
-    "id": "07a3ee7b-8c33-46fe-b1de-e6d8d7ccddff",
-    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
-    "metricName": "OS Disk IOPS Consumed Percentage",
-    "aggregationType": "Average",
-    "unit": "Count",
-    "timeGrain": "PT5M",
-    "dimensions": null,
-    "staticThresholds": {
-      "unhealthyThreshold": 1.0,
-      "unhealthyOperator": "LessThan"
-    },
-    "dynamicThresholds": null,
-    "recommended": true,
-    "source": "AlertRuleRecommendations"
-  },
-  {
     "id": "d48cefc3-a1cd-4a51-bcf9-bb94efb4c45e",
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Outbound Flows",

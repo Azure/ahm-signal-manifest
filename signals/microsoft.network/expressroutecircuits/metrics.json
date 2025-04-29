@@ -33,6 +33,22 @@
     "recommended": true
   },
   {
+    "id": "b3efd29e-b2a6-4376-84c1-3148aede905a",
+    "metricNamespace": "microsoft.network/expressroutecircuits",
+    "metricName": "QosDropBitsOutPerSecond",
+    "aggregationType": "Average",
+    "unit": "BitsPerSecond",
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
+  },
+  {
     "id": "ef166add-30e1-4153-9d5e-ed477c3d7a22",
     "metricNamespace": "microsoft.network/expressroutecircuits",
     "metricName": "ArpAvailability",
