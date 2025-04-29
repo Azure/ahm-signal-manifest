@@ -1,0 +1,34 @@
+[
+    {
+        "id": "0890fab5-743e-4c0b-a37c-35a818cddbb2",
+        "metricNamespace": "microsoft.monitor/accounts",
+        "metricName": "EventsPerMinuteIngestedPercentUtilization",
+        "aggregationType": "Average",
+        "unit": "Percent",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 75.0,
+            "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    },
+    {
+        "id": "25bc2fb4-b78b-4015-8344-218885173758",
+        "metricNamespace": "microsoft.monitor/accounts",
+        "metricName": "UserActiveTimeSeriesCountUtilization",
+        "aggregationType": "Average",
+        "unit": "Percent",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 85.0,
+            "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    }
+]

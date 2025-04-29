@@ -17,6 +17,22 @@
     "recommended": true
   },
   {
+    "id": "f709b604-793f-4291-a5bf-660f381697da",
+    "metricNamespace": "microsoft.compute/virtualmachines",
+    "metricName": "VmAvailabilityMetric",
+    "aggregationType": "Average",
+    "unit": "Count",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 1.0,
+      "unhealthyOperator": "LessThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
+  },
+  {
     "id": "52bdf074-69b3-41d2-a9de-f4359562ed7d",
     "metricNamespace": "microsoft.compute/virtualmachines",
     "metricName": "Data Disk Queue Depth",

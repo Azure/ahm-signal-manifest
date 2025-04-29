@@ -1,5 +1,21 @@
 [
   {
+    "id": "337c648e-6ce7-43cd-9566-4ad5aa66cc4a",
+    "metricNamespace": "microsoft.network/expressroutecircuits",
+    "metricName": "QosDropBitsInPerSecond",
+    "aggregationType": "Average",
+    "unit": "BitsPerSecond",
+    "timeGrain": "PT1M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
+  },
+  {
     "id": "7470b76d-cb5d-4591-9683-43853160d6a9",
     "metricNamespace": "microsoft.network/expressroutecircuits",
     "metricName": "BgpAvailability",
