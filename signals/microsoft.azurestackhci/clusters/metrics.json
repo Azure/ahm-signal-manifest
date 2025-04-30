@@ -1,0 +1,98 @@
+[
+    {
+        "id": "96c8adc9-2579-4de0-9445-32bc508556f3",
+        "metricNamespace": "microsoft.azurestackhci/clusters",
+        "metricName": "Hyper-V Hypervisor Logical Processor\\% Total Run Time",
+        "aggregationType": "Average",
+        "unit": "Percent",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 80.0,
+            "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    },
+    {
+        "id": "911b837f-d32d-40eb-9cfc-84f3d76ad1ad",
+        "metricNamespace": "microsoft.azurestackhci/clusters",
+        "metricName": "Memory\\Available Bytes",
+        "aggregationType": "Average",
+        "unit": "Bytes",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 1000000000.0,
+            "unhealthyOperator": "LessThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    },
+    {
+        "id": "717a488e-bd85-4a69-b877-83f889e881c6",
+        "metricNamespace": "microsoft.azurestackhci/clusters",
+        "metricName": "Cluster CSVFS\\Avg. sec/Read",
+        "aggregationType": "Maximum",
+        "unit": "Seconds",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 0.5,
+            "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    },
+    {
+        "id": "be5c92a5-251d-4c5d-b6db-7beeec85ea02",
+        "metricNamespace": "microsoft.azurestackhci/clusters",
+        "metricName": "Cluster CSVFS\\Avg. sec/Write",
+        "aggregationType": "Maximum",
+        "unit": "Seconds",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 0.5,
+            "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    },
+    {
+        "id": "e80b841d-62c8-47e7-a9eb-3c2b95bd2332",
+        "metricNamespace": "microsoft.azurestackhci/clusters",
+        "metricName": "Network Adapter\\Bytes Received/sec",
+        "aggregationType": "Total",
+        "unit": "BytesPerSecond",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 500000000000.0,
+            "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    },
+    {
+        "id": "681959fa-cde1-4695-af7b-c597025a6834",
+        "metricNamespace": "microsoft.azurestackhci/clusters",
+        "metricName": "Network Adapter\\Bytes Sent/sec",
+        "aggregationType": "Total",
+        "unit": "BytesPerSecond",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyThreshold": 200000000000.0,
+            "unhealthyOperator": "GreaterThan"
+        },
+        "dynamicThresholds": null,
+        "recommended": true,
+        "source": "AlertRuleRecommendations"
+    }
+]

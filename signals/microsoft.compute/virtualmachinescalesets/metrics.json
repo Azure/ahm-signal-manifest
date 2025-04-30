@@ -17,55 +17,100 @@
     "recommended": true
   },
   {
-    "id": "57baca66-55ff-4357-94dd-2076db0ca5c6",
+    "id": "ea20a6a9-9e56-4289-8c42-7472fd0b6691",
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
-    "metricName": "OS Disk IOPS Consumed Percentage",
+    "metricName": "Available Memory Bytes",
     "aggregationType": "Average",
-    "unit": "Percent",
-    "timeGrain": "PT30M",
+    "unit": "Bytes",
+    "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
-      "degradedThreshold": 85.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 95.0,
-      "unhealthyOperator": "GreaterThan"
+      "unhealthyThreshold": 1000000000.0,
+      "unhealthyOperator": "LessThan"
     },
     "dynamicThresholds": null,
-    "recommended": true
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
   },
   {
-    "id": "03919b00-41b7-45f7-8807-a2406fe3940f",
+    "id": "729c34c9-a277-4687-a335-ddc900d97358",
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "OS Disk Bandwidth Consumed Percentage",
     "aggregationType": "Average",
     "unit": "Percent",
-    "timeGrain": "PT30M",
+    "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
-      "degradedThreshold": 85.0,
-      "degradedOperator": "GreaterThan",
       "unhealthyThreshold": 95.0,
       "unhealthyOperator": "GreaterThan"
     },
     "dynamicThresholds": null,
-    "recommended": true
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
   },
   {
-    "id": "0217e621-cc2b-405e-93ca-9b59f0103d7a",
+    "id": "d48cefc3-a1cd-4a51-bcf9-bb94efb4c45e",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "Outbound Flows",
+    "aggregationType": "Average",
+    "unit": "Count",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 100000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
+  },
+  {
+    "id": "7399376b-bb00-4532-a2b7-98d058a7958a",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "Inbound Flows",
+    "aggregationType": "Average",
+    "unit": "Count",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 100000.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
+  },
+  {
+    "id": "fe309a6d-d276-4fb1-bfef-2fe511c8934f",
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Data Disk IOPS Consumed Percentage",
     "aggregationType": "Average",
     "unit": "Percent",
-    "timeGrain": "PT30M",
+    "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
-      "degradedThreshold": 85.0,
-      "degradedOperator": "GreaterThan",
       "unhealthyThreshold": 95.0,
       "unhealthyOperator": "GreaterThan"
     },
     "dynamicThresholds": null,
-    "recommended": true
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
+  },
+  {
+    "id": "dd2716bf-59a2-47ba-9804-723fd94f2504",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "Data Disk Bandwidth Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": "Percent",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
   },
   {
     "id": "8ee65d84-8396-49bc-989f-cccb16b34051",
@@ -100,6 +145,22 @@
     },
     "dynamicThresholds": null,
     "recommended": true
+  },
+  {
+    "id": "7756015c-8f17-4de7-9152-f1c79f93bdb6",
+    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
+    "metricName": "OS Disk IOPS Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": "Percent",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 95.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
   },
   {
     "id": "462d9382-00e1-4d53-98fe-7a8468864d8b",
