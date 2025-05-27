@@ -1,0 +1,32 @@
+[
+    {
+        "id": "e2350868-bdeb-4f3f-b1ad-21af99939a31",
+        "metricNamespace": "microsoft.documentdb/cassandraclusters",
+        "metricName": "cassandra_client_auth_failure3",
+        "aggregationType": "Average",
+        "unit": "Count",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyOperator": "GreaterThan",
+            "unhealthyThreshold": 0.0
+        },
+        "dynamicThresholds": null,
+        "recommended": true
+    },
+    {
+        "id": "77349d2d-1ffb-4b78-b22d-3bf6b802e5bf",
+        "metricNamespace": "microsoft.documentdb/cassandraclusters",
+        "metricName": "cassandra_client_request_failure3",
+        "aggregationType": "Average",
+        "unit": "Count",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyOperator": "GreaterThan",
+            "unhealthyThreshold": 0.0
+        },
+        "dynamicThresholds": null,
+        "recommended": true
+    }
+]
