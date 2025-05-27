@@ -1,0 +1,18 @@
+[
+    {
+        "id": "",
+        "metricNamespace": "microsoft.documentdb/cassandraclusters",
+        "metricName": "cassandra_client_auth_failure3",
+        "aggregationType": "Average",
+        "unit": "Count",
+        "timeGrain": "PT5M",
+        "dimensions": null,
+        "staticThresholds": {
+            "unhealthyOperator": "GreaterThan",
+            "unhealthyThreshold": 0.0
+        },
+        "dynamicThresholds": null,
+        "recommended": true
+
+    }
+]
