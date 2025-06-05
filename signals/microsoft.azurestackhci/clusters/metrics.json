@@ -25,7 +25,7 @@
         "dimensions": null,
         "staticThresholds": {
             "unhealthyThreshold": 1000000000.0,
-            "unhealthyOperator": "LessThan"
+            "unhealthyOperator": "LowerThan"
         },
         "dynamicThresholds": null,
         "recommended": true,
