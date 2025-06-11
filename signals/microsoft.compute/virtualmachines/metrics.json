@@ -79,5 +79,35 @@
       "operator": "GreaterThan"
     },
     "recommended": false
+  },
+  {
+    "id": "11ec035b-a94e-4a33-87ed-8934b54ceac5",
+    "metricNamespace": "microsoft.compute/virtualmachines",
+    "metricName": "Data Disk IOPS Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": "Percent",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 95,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
+  },
+  {
+    "id": "d77b9d8c-137f-4467-9be7-e86ac8b0afe0",
+    "metricNamespace": "microsoft.compute/virtualmachines",
+    "metricName": "OS Disk IOPS Consumed Percentage",
+    "aggregationType": "Average",
+    "unit": "Percent",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "unhealthyThreshold": 95,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "recommended": true,
+    "source": "AlertRuleRecommendations"
   }
 ]
