@@ -16,6 +16,12 @@ if (-not (Test-Path $metricsFile)) {
 # Convert JSON to PowerShell objects
 $objects = Get-Content $metricsFile | ConvertFrom-Json
 
+# Ensure the root of the JSON is an array (strings are also IEnumerable)
+if ($objects -isnot [System.Collections.IEnumerable] -or $objects -is [string] -or $objects.Count -eq $null) {
+    Write-Host "::error file=$metricsFile::Root JSON element must be an array."
+    exit 1
+}
+
 # Define the expected schema
 $schema = @{
     id                = [string]
