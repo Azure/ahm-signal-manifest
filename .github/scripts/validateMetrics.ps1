@@ -14,7 +14,7 @@ if (-not (Test-Path $metricsFile)) {
 }
 
 # Convert JSON to PowerShell objects
-$objects = Get-Content $metricsFile | ConvertFrom-Json
+$objects = Get-Content $metricsFile | ConvertFrom-Json -NoEnumerate
 
 # Ensure the root of the JSON is an array (strings are also IEnumerable)
 if ($objects -isnot [System.Collections.IEnumerable] -or $objects -is [string] -or $objects.Count -eq $null) {
