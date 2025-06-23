@@ -1,17 +1,19 @@
-{
-  "id": "73b4b2bc-66fd-44b8-8859-f930c5dc74fd",
-  "metricNamespace": "microsoft.web/sites",
-  "metricName": "Http5xx",
-  "aggregationType": "Maximum",
-  "unit": "Count",
-  "timeGrain": "PT5M",
-  "dimensions": null,
-  "staticThresholds": {
-    "degradedThreshold": 0.0,
-    "degradedOperator": "GreaterThan",
-    "unhealthyThreshold": 0.0,
-    "unhealthyOperator": "GreaterThan"
-  },
-  "dynamicThresholds": null,
-  "recommended": true
-}
+[
+  {
+    "id": "73b4b2bc-66fd-44b8-8859-f930c5dc74fd",
+    "metricNamespace": "microsoft.web/sites",
+    "metricName": "Http5xx",
+    "aggregationType": "Maximum",
+    "unit": "Count",
+    "timeGrain": "PT5M",
+    "dimensions": null,
+    "staticThresholds": {
+      "degradedThreshold": 0.0,
+      "degradedOperator": "GreaterThan",
+      "unhealthyThreshold": 0.0,
+      "unhealthyOperator": "GreaterThan"
+    },
+    "dynamicThresholds": null,
+    "recommended": true
+  }
+]
