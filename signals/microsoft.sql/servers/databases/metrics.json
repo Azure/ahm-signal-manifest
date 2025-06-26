@@ -30,7 +30,7 @@
       "model": "AnomalyDetection",
       "operator": "GreaterThan"
     },
-    "recommended": true
+    "recommended": false
   },
   {
     "id": "26e688e9-b36d-421d-a2e6-07814f3d8c9a",
@@ -46,7 +46,7 @@
       "model": "AnomalyDetection",
       "operator": "GreaterThan"
     },
-    "recommended": true
+    "recommended": false
   },
   {
     "id": "d3b47f33-5fd7-4f8a-8f98-7ef22df13dcb",
