@@ -49,38 +49,6 @@
     "source": "AlertRuleRecommendations"
   },
   {
-    "id": "d48cefc3-a1cd-4a51-bcf9-bb94efb4c45e",
-    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
-    "metricName": "Outbound Flows",
-    "aggregationType": "Average",
-    "unit": "Count",
-    "timeGrain": "PT5M",
-    "dimensions": null,
-    "staticThresholds": {
-      "unhealthyThreshold": 100000.0,
-      "unhealthyOperator": "GreaterThan"
-    },
-    "dynamicThresholds": null,
-    "recommended": true,
-    "source": "AlertRuleRecommendations"
-  },
-  {
-    "id": "7399376b-bb00-4532-a2b7-98d058a7958a",
-    "metricNamespace": "microsoft.compute/virtualmachinescalesets",
-    "metricName": "Inbound Flows",
-    "aggregationType": "Average",
-    "unit": "Count",
-    "timeGrain": "PT5M",
-    "dimensions": null,
-    "staticThresholds": {
-      "unhealthyThreshold": 100000.0,
-      "unhealthyOperator": "GreaterThan"
-    },
-    "dynamicThresholds": null,
-    "recommended": true,
-    "source": "AlertRuleRecommendations"
-  },
-  {
     "id": "fe309a6d-d276-4fb1-bfef-2fe511c8934f",
     "metricNamespace": "microsoft.compute/virtualmachinescalesets",
     "metricName": "Data Disk IOPS Consumed Percentage",
