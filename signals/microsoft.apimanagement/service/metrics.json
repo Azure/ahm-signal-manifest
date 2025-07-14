@@ -21,7 +21,7 @@
     "metricNamespace": "microsoft.apimanagement/service",
     "metricName": "BackendDuration",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "MilliSeconds",
     "timeGrain": "PT1M",
     "dimensions": null,
     "staticThresholds": {
@@ -38,7 +38,7 @@
     "metricNamespace": "microsoft.apimanagement/service",
     "metricName": "Duration",
     "aggregationType": "Average",
-    "unit": null,
+    "unit": "MilliSeconds",
     "timeGrain": "PT5M",
     "dimensions": null,
     "staticThresholds": {
