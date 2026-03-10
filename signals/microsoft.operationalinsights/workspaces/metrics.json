@@ -179,9 +179,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 75.0,
-      "degradedOperator": "GreaterOrEquals",
+      "degradedOperator": "GreaterThanOrEquals",
       "unhealthyThreshold": 85.0,
-      "unhealthyOperator": "GreaterOrEquals"
+      "unhealthyOperator": "GreaterThanOrEquals"
     },
     "dynamicThresholds": null,
     "recommended": true
@@ -196,9 +196,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 80.0,
-      "degradedOperator": "GreaterOrEquals",
+      "degradedOperator": "GreaterThanOrEquals",
       "unhealthyThreshold": 90.0,
-      "unhealthyOperator": "GreaterOrEquals"
+      "unhealthyOperator": "GreaterThanOrEquals"
     },
     "dynamicThresholds": null,
     "recommended": true
