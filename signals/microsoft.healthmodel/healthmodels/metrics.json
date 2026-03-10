@@ -9,9 +9,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 100.0,
-      "degradedOperator": "LowerThan",
+      "degradedOperator": "LessThan",
       "unhealthyThreshold": 50.0,
-      "unhealthyOperator": "LowerThan"
+      "unhealthyOperator": "LessThan"
     },
     "dynamicThresholds": null,
     "recommended": true

@@ -9,9 +9,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 20.0,
-      "degradedOperator": "LowerThan",
+      "degradedOperator": "LessThan",
       "unhealthyThreshold": 10.0,
-      "unhealthyOperator": "LowerThan"
+      "unhealthyOperator": "LessThan"
     },
     "dynamicThresholds": null,
     "recommended": true
@@ -94,9 +94,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 0.0,
-      "degradedOperator": "LowerOrEquals",
+      "degradedOperator": "LessThanOrEqual",
       "unhealthyThreshold": 0.0,
-      "unhealthyOperator": "LowerOrEquals"
+      "unhealthyOperator": "LessThanOrEqual"
     },
     "dynamicThresholds": null,
     "recommended": true
@@ -111,9 +111,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 768.0,
-      "degradedOperator": "LowerThan",
+      "degradedOperator": "LessThan",
       "unhealthyThreshold": 512.0,
-      "unhealthyOperator": "LowerThan"
+      "unhealthyOperator": "LessThan"
     },
     "dynamicThresholds": null,
     "recommended": true
@@ -128,9 +128,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 15.0,
-      "degradedOperator": "LowerThan",
+      "degradedOperator": "LessThan",
       "unhealthyThreshold": 10.0,
-      "unhealthyOperator": "LowerThan"
+      "unhealthyOperator": "LessThan"
     },
     "dynamicThresholds": null,
     "recommended": true
@@ -179,9 +179,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 75.0,
-      "degradedOperator": "GreaterOrEquals",
+      "degradedOperator": "GreaterThanOrEqual",
       "unhealthyThreshold": 85.0,
-      "unhealthyOperator": "GreaterOrEquals"
+      "unhealthyOperator": "GreaterThanOrEqual"
     },
     "dynamicThresholds": null,
     "recommended": true
@@ -196,9 +196,9 @@
     "dimensions": null,
     "staticThresholds": {
       "degradedThreshold": 80.0,
-      "degradedOperator": "GreaterOrEquals",
+      "degradedOperator": "GreaterThanOrEqual",
       "unhealthyThreshold": 90.0,
-      "unhealthyOperator": "GreaterOrEquals"
+      "unhealthyOperator": "GreaterThanOrEqual"
     },
     "dynamicThresholds": null,
     "recommended": true
