@@ -49,39 +49,5 @@
     },
     "dynamicThresholds": null,
     "recommended": true
-  },
-  {
-    "id": "98fbbe9f-c4f9-49fe-b5eb-257206f67132",
-    "metricNamespace": "microsoft.storage/storageaccounts",
-    "metricName": "QueueCount",
-    "aggregationType": "Average",
-    "unit": null,
-    "timeGrain": "PT1H",
-    "dimensions": null,
-    "staticThresholds": {
-      "degradedThreshold": 0.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 0.0,
-      "unhealthyOperator": "GreaterThan"
-    },
-    "dynamicThresholds": null,
-    "recommended": false
-  },
-  {
-    "id": "87773c89-5378-42a2-adb7-77d1caf526bd",
-    "metricNamespace": "microsoft.storage/storageaccounts",
-    "metricName": "QueueCapacity",
-    "aggregationType": "Average",
-    "unit": null,
-    "timeGrain": "PT1H",
-    "dimensions": null,
-    "staticThresholds": {
-      "degradedThreshold": 0.0,
-      "degradedOperator": "GreaterThan",
-      "unhealthyThreshold": 0.0,
-      "unhealthyOperator": "GreaterThan"
-    },
-    "dynamicThresholds": null,
-    "recommended": false
   }
 ]
